@@ -29,7 +29,6 @@ Motyw PLD darkblue do bootsplash.
 rm -rf $RPM_BUILD_ROOT
 THEME_DIR=$RPM_BUILD_ROOT%{_sysconfdir}/bootsplash/themes/%{theme}
 install -d $THEME_DIR{,/animations,/config,/images}
-#install %{theme}/animations/*.mng $THEME_DIR/animations
 install %{theme}/config/*.cfg $THEME_DIR/config
 install %{theme}/images/*.jpeg $THEME_DIR/images
 
