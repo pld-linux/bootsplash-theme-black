@@ -2,7 +2,7 @@
 %define	theme	black
 
 Summary:	Bootsplash - darkblue theme
-Summary(pl):	Bootsplash - motyw darkblue
+Summary(pl.UTF-8):   Bootsplash - motyw darkblue
 Name:		bootsplash-theme-%{theme}
 Version:	1.1
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Darkblue PLD theme for bootsplash.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw PLD darkblue do bootsplash.
 
 %prep
