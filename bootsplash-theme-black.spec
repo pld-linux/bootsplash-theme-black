@@ -11,9 +11,9 @@ License:	GPL v2
 Group:		Themes
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	6b53ed3a8897d5618cdf62df9a82816e
-URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/%{theme}/
-Provides:	bootsplash-theme
+URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/black/
 Requires:	bootsplash
+Provides:	bootsplash-theme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
